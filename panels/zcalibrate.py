@@ -29,7 +29,7 @@ class ZCalibratePanel(ScreenPanel):
         self.labels['start'] = self._gtk.ButtonImage('arrow-down', _("Move Z0"), 'color1')
         script = {"script": "G28\nG1 Z0 F2500"}
         self.labels['start'].connect("clicked", self._screen._confirm_send_action,
-                                          _("Please remove leveling switch before move Z0."),
+                                          _("RICORDA: Rimuovi la sonda prima del movimento in Z0."),
                                           "printer.gcode.script", script)
         self.labels['home'] = self._gtk.ButtonImage("home", _("Home"), "color2")
         self.labels['home'].connect("clicked", self.home)

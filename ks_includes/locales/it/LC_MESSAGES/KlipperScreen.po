@@ -13,6 +13,57 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.1.1\n"
 
+msgid "Show Heater Power"
+msgstr ""
+
+msgid "Neopixels"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Yellow"
+msgstr ""
+
+msgid "Orange"
+msgstr ""
+
+msgid "Violet"
+msgstr ""
+
+msgid "Hotend (All)"
+msgstr ""
+
+msgid "Hotend (One by One)"
+msgstr ""
+
+msgid "Bed (All)"
+msgstr ""
+
+msgid "Bed (One by One)"
+msgstr ""
+
+msgid "Progress (All)"
+msgstr ""
+
+msgid "Progress (One by One)"
+msgstr ""
+
+msgid "Speed (All)"
+msgstr ""
+
+msgid "Speed (One by One)"
+msgstr ""
+
 msgid "Shutdown"
 msgstr ""
 
@@ -47,57 +98,6 @@ msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
-msgstr ""
-
-msgid "Light"
-msgstr ""
-
-msgid "LED On"
-msgstr ""
-
-msgid "LED Off"
-msgstr ""
-
-msgid "Blue"
-msgstr ""
-
-msgid "Red"
-msgstr ""
-
-msgid "Green"
-msgstr ""
-
-msgid "Yellow"
-msgstr ""
-
-msgid "Orange"
-msgstr ""
-
-msgid "Violet"
-msgstr ""
-
-msgid "Nozzle (All)"
-msgstr ""
-
-msgid "Nozzle (Progressive)"
-msgstr ""
-
-msgid "Bed (All)"
-msgstr ""
-
-msgid "Bed (Progressive)"
-msgstr ""
-
-msgid "Progress (All)"
-msgstr ""
-
-msgid "Progress (Progressive)"
-msgstr ""
-
-msgid "Speed (All)"
-msgstr ""
-
-msgid "Speed (Progressive)"
 msgstr ""
 
 #, python-format
@@ -135,15 +135,15 @@ msgid "Add profile"
 msgstr "Aggiungi Profilo"
 
 msgid "Apply"
-msgstr ""
+msgstr "Applica"
 
 #, python-format
 msgid "Apply %.2f offset to Endstop?"
-msgstr ""
+msgstr "Applica  %.2f offset per Endstop?"
 
 #, python-format
 msgid "Apply %s%.2f offset to Probe?"
-msgstr ""
+msgstr "Applica  %s%.2f offset per la Sonda?"
 
 msgid "Are you sure you want to run Emergency Stop?"
 msgstr "Sei sicuro di voler eseguire l'arresto di emergenza?"
@@ -164,7 +164,7 @@ msgid "Auto"
 msgstr "Auto"
 
 msgid "Auto-calibrate"
-msgstr ""
+msgstr "Calibrazione-Auto"
 
 msgid "Auto-close notifications"
 msgstr ""
@@ -185,7 +185,7 @@ msgid "Calibrate"
 msgstr "Calibra"
 
 msgid "Calibrated"
-msgstr ""
+msgstr "Calbrato"
 
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Calibrato, salva la configurazione per renderla permanente"
@@ -218,13 +218,13 @@ msgid "Channel"
 msgstr "Canale"
 
 msgid "Check ADXL Wiring"
-msgstr ""
+msgstr "Controllo collegamento ADXL"
 
 msgid "Checking for updates, please wait..."
-msgstr ""
+msgstr "Controllo aggiornamenti..."
 
 msgid "Clear"
-msgstr ""
+msgstr "Pulito"
 
 msgid "Close"
 msgstr "Chiudi"
@@ -264,7 +264,7 @@ msgid "Delete"
 msgstr "Elimina"
 
 msgid "Delete File?"
-msgstr ""
+msgstr "Cancellare il file?"
 
 msgid "Deselect"
 msgstr "Deseleziona"
@@ -292,7 +292,7 @@ msgid "Estimated Time Method"
 msgstr "Metodo Tempo stimato"
 
 msgid "Exclude Object"
-msgstr ""
+msgstr "Escludi oggetto"
 
 msgid "Extrude"
 msgstr "Estrudi"
@@ -313,13 +313,13 @@ msgid "Filament Used"
 msgstr "Filamento Usato"
 
 msgid "Filament total:"
-msgstr ""
+msgstr "Filamento totale:"
 
 msgid "Filament used:"
 msgstr ""
 
 msgid "Filament:"
-msgstr ""
+msgstr "Filamento totale:"
 
 msgid "File"
 msgstr "File"
@@ -328,7 +328,7 @@ msgid "File:"
 msgstr ""
 
 msgid "Finding ADXL"
-msgstr ""
+msgstr "Ricerca ADXL"
 
 msgid "Fine Tuning"
 msgstr "Messa a Punto"
@@ -336,38 +336,26 @@ msgstr "Messa a Punto"
 msgid "Finish"
 msgstr "Finito"
 
-#, fuzzy
-#| msgid ""
-#| "Firmware\n"
-#| "Restart"
 msgid "Firmware Restart"
-msgstr ""
-"Firmware\n"
-"Riavvio"
+msgstr "Firmware Riavvio"
 
 msgid "Flow:"
-msgstr ""
+msgstr "Flusso:"
 
 msgid "Flowrate:"
-msgstr ""
+msgstr "Portata:"
 
 msgid "Font Size"
 msgstr "Dimensione del testo"
 
-#, fuzzy
-#| msgid ""
-#| "Full\n"
-#| "Update"
 msgid "Full Update"
-msgstr ""
-"Completo\n"
-"Aggiornare"
+msgstr "Aggiornamento Completo"
 
 msgid "Go Back"
 msgstr "Indietro"
 
 msgid "Height:"
-msgstr ""
+msgstr "Altezza:"
 
 msgid "Hidden"
 msgstr "Nascosto"
@@ -379,7 +367,7 @@ msgid "Hide sensors in Temp."
 msgstr "Nascondi sensori in Temp."
 
 msgid "Hide temp."
-msgstr ""
+msgstr "Nacondi temp."
 
 msgid "Home"
 msgstr "Inizio"
@@ -402,10 +390,8 @@ msgstr "Home Z"
 msgid "Homing"
 msgstr "Homing"
 
-#, fuzzy
-#| msgid "Hostname"
 msgid "Host"
-msgstr "Hostname"
+msgstr "-"
 
 msgid "Hostname"
 msgstr "Hostname"
@@ -423,7 +409,7 @@ msgid "Initializing printer..."
 msgstr "Inizializzo stampante..."
 
 msgid "Input Shaper"
-msgstr ""
+msgstr "Input Shaper"
 
 msgid "Interface"
 msgstr "Interfaccia"
@@ -440,14 +426,8 @@ msgstr "Inverti Y"
 msgid "Invert Z"
 msgstr "Inverti Z"
 
-#, fuzzy
-#| msgid ""
-#| "Klipper\n"
-#| "Restart"
 msgid "Klipper Restart"
-msgstr ""
-"Klipper\n"
-"Riavvio"
+msgstr "Klipper. Riavvio"
 
 msgid "Klipper has disconnected"
 msgstr "Klipper è disconnesso"
@@ -486,7 +466,7 @@ msgid "Lower Nozzle"
 msgstr "Abbassa ugello"
 
 msgid "Machine"
-msgstr ""
+msgstr "Macchina"
 
 msgid "Macro shortcut on sidebar"
 msgstr "Macros sulla barra laterale"
@@ -501,22 +481,22 @@ msgid "Max"
 msgstr ""
 
 msgid "Max Acceleration"
-msgstr ""
+msgstr "Accelerazione Max"
 
 msgid "Max Acceleration to Deceleration"
-msgstr "Da acceleraz. Massima a Deceleraz. Massima"
+msgstr "Da Acceleraz. max a Deceleraz. Max"
 
 msgid "Max Velocity"
 msgstr "Velocità Massima"
 
 msgid "Measure Both"
-msgstr ""
+msgstr "Misura entrambi"
 
 msgid "Measure X"
-msgstr ""
+msgstr "Misura X"
 
 msgid "Measure Y"
-msgstr ""
+msgstr "Misura Y"
 
 msgid "Medium"
 msgstr "Medio"
@@ -543,12 +523,14 @@ msgid "Network"
 msgstr "Rete"
 
 msgid "New"
-msgstr ""
+msgstr "Nuovo"
 
 msgid ""
 "Not supported for auto-detection, it needs to be configured in klipperscreen."
 "conf"
 msgstr ""
+"Non supportato per il rilevamento automatico, deve essere configurato in "
+"klipperscreen.conf"
 
 msgid "Nothing selected"
 msgstr "Niente selezionato"
@@ -569,7 +551,7 @@ msgstr[0] "Pacchetto verrà aggiornato"
 msgstr[1] "I pacchetti verranno aggiornati"
 
 msgid "Part Fan"
-msgstr ""
+msgstr "Ventola"
 
 msgid "Password saved"
 msgstr "Password salvata"
@@ -596,7 +578,7 @@ msgid "Power On Printer"
 msgstr "Accendi Stampante"
 
 msgid "Pressure Advance:"
-msgstr ""
+msgstr "Pressure Advance:"
 
 msgid "Print"
 msgstr "Stampa"
@@ -614,7 +596,7 @@ msgid "Printing"
 msgstr "In Stampa"
 
 msgid "Probe Offset"
-msgstr ""
+msgstr "Offset Sonda:"
 
 msgid "Profile Name:"
 msgstr "Nome Profilo:"
@@ -626,16 +608,16 @@ msgid "Raise Nozzle"
 msgstr "Alza Ugello"
 
 msgid "Recover Hard"
-msgstr "Recuperare Hard"
+msgstr "Ripristino Hard"
 
 msgid "Recover Soft"
-msgstr "Recuperare Soft"
+msgstr "Ripristino Soft"
 
 msgid "Reference"
 msgstr "Riferimento"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Aggiorna"
 
 msgid "Restart"
 msgstr "Riavvia"
@@ -647,20 +629,20 @@ msgid "Retract"
 msgstr "Ritrai"
 
 msgid "Retraction"
-msgstr ""
+msgstr "Retrazione"
 
 msgid "Retraction Length"
-msgstr ""
+msgstr "Lunghezza retrazione"
 
 msgid "Retraction Speed"
-msgstr ""
+msgstr "Velocità Retrazione"
 
 #, python-format
 msgid "Retry #%s"
 msgstr "Riprova #%s"
 
 msgid "Retrying"
-msgstr ""
+msgstr "Riprovo"
 
 msgid "Save"
 msgstr "Salva"
@@ -669,17 +651,17 @@ msgid "Save Config"
 msgstr "Salva Config"
 
 msgid "Save Z"
-msgstr ""
+msgstr "Salva Z"
 
 msgid "Save configuration?"
-msgstr ""
+msgstr "Salvare la configurazione?"
 
 msgid "Saved"
-msgstr ""
+msgstr "Salvato"
 
 #, python-format
 msgid "Saved offset: %s"
-msgstr ""
+msgstr "Offset salvato: %s"
 
 msgid "Screen DPMS"
 msgstr "Schermo DPMS"
@@ -694,7 +676,7 @@ msgid "Select"
 msgstr "Selezionare"
 
 msgid "Send"
-msgstr "Spedire"
+msgstr "Invia"
 
 #, python-format
 msgid "Sending Power ON signal to: %s"
@@ -707,7 +689,7 @@ msgid "Settings"
 msgstr "Impostazioni"
 
 msgid "Show"
-msgstr "Mostrare"
+msgstr "Mostra"
 
 msgid "Size"
 msgstr "Grandezza"
@@ -716,7 +698,7 @@ msgid "Slicer"
 msgstr "Slicer"
 
 msgid "Slicer Time correction (%)"
-msgstr "Affettatrice Correzione del tempo (%)"
+msgstr "Tempo corretto da Slicer  (%)"
 
 msgid "Slicer:"
 msgstr ""
@@ -725,10 +707,10 @@ msgid "Small"
 msgstr "Piccola"
 
 msgid "Sort by: "
-msgstr "Ordine: "
+msgstr "Ordina: "
 
 msgid "Sort:"
-msgstr ""
+msgstr "Ordine:"
 
 msgid "Speed (mm/s)"
 msgstr "Velocità (mm/s)"
@@ -740,13 +722,13 @@ msgid "Speed -"
 msgstr "Velocità-"
 
 msgid "Speed:"
-msgstr ""
+msgstr "Velocità:"
 
 msgid "Square Corner Velocity"
-msgstr "Velocità Square Corner"
+msgstr "Velocità Angoli"
 
 msgid "Start"
-msgstr "Iniziare"
+msgstr "Avvio"
 
 msgid "Starting WiFi Association"
 msgstr "Avvio dell'Associazione WiFi"
@@ -760,23 +742,11 @@ msgstr "Avvio aggiornamento per"
 msgid "System"
 msgstr "Sistema"
 
-#, fuzzy
-#| msgid ""
-#| "System\n"
-#| "Restart"
 msgid "System Restart"
-msgstr ""
-"Riavvia\n"
-"Sistema"
+msgstr "Riavvia Sistema"
 
-#, fuzzy
-#| msgid ""
-#| "System\n"
-#| "Shutdown"
 msgid "System Shutdown"
-msgstr ""
-"Spegni\n"
-"Sistema"
+msgstr "Spegni Sistema"
 
 msgid "Temp (°C)"
 msgstr "Temp (°C)"
@@ -795,10 +765,10 @@ msgid "Unknown Heater"
 msgstr "Riscaldatore sconosciuto"
 
 msgid "Unknown screw position"
-msgstr ""
+msgstr "Posizione vite sconosciuta"
 
 msgid "Unload"
-msgstr "Scaricare"
+msgstr "Scarico"
 
 msgid "Unretract Extra Length"
 msgstr ""
@@ -816,7 +786,7 @@ msgid "Updating"
 msgstr "In aggiornamento"
 
 msgid "Uploaded"
-msgstr "Caricato"
+msgstr "Aggiornamento OK"
 
 msgid "View Mesh"
 msgstr "Visual. Mesh"
@@ -831,7 +801,7 @@ msgid "XY Move Speed (mm/s)"
 msgstr "Velocità di spostamento XY (mm/s)"
 
 msgid "XY Speed (mm/s)"
-msgstr ""
+msgstr "Velocità XY (mm/s)"
 
 msgid "Y+"
 msgstr "Y+"
